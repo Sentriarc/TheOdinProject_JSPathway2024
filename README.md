@@ -1,0 +1,1 @@
+This is a compilation of all the lessons I do on the JS Pathway. The year is 2024.
