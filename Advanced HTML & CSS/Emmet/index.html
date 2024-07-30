@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet</title>
+</head>
+<body>
+    <!-- This came from "(header>h2{Heading}+nav>ol>li*5>a{Link $})+main+footer" -->
+    <header>
+        <h2>Heading</h2>
+        <nav>
+            <ol>
+                <li><a href="">Link 1</a></li>
+                <li><a href="">Link 2</a></li>
+                <li><a href="">Link 3</a></li>
+                <li><a href="">Link 4</a></li>
+                <li><a href="">Link 5</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+
+
+    <!-- This came from "form:post>.group>input" -->
+    <form action="" method="post">
+        <div class="group"><input type="text"></div>
+    </form>
+
+    <!-- form:post>(.group>label+input:text)+(.group>label+input:number) -->
+    <form action="" method="post">
+        <div class="group"><label for=""></label><input type="text" name="" id=""></div>
+        <div class="group"><label for=""></label><input type="number" name="" id=""></div>
+    </form>
+</body>
+</html>
