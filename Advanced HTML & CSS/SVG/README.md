@@ -1,0 +1,1 @@
+This just talks about the uses of SVG. SVG's are good for basic images, but not so great for details. They're also easily scalable compared to regular images.
