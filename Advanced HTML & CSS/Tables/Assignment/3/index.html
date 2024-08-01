@@ -3,18 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Assignment/3/style.css">
-    <title>Styled Table</title>
+    <title>Styled Table with Column Groups</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+            font-family: 'Arial', sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #dddddd;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        colgroup col {
+            background-color: #f9f9f9;
+        }
+
+        colgroup col:nth-child(2) {
+            background-color: #e1f5fe;
+        }
+
+        colgroup col:nth-child(3) {
+            background-color: #ffecb3;
+        }
+    </style>
 </head>
 <body>
     <table>
         <colgroup>
-            <col span="1" style="background-color: gray">
-            <col span="1" style="background-color: gray">
+            <col span="1" style="background-color: #f2f2f2">
+            <col span="1" style="background-color: #e1f5fe">
+            <col span="1" style="background-color: #ffecb3">
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
         </colgroup>
         <thead>
             <tr>
-                <th></th>
+                <th>#</th>
                 <th>Name</th>
                 <th>Mass (10^24kg)</th>
                 <th>Diameter (km)</th>
@@ -27,19 +86,36 @@
                 <th>Notes</th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
+                <td>1</td>
                 <td>Mercury</td>
-                
+                <td>0.33</td>
+                <td>4879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td>Closest planet to the Sun</td>
             </tr>
             <tr>
+                <td>2</td>
                 <td>Venus</td>
-                
+                <td>4.87</td>
+                <td>12104</td>
+                <td>5243</td>
+                <td>8.9</td>
+                <td>2802.0</td>
+                <td>108.2</td>
+                <td>464</td>
+                <td>0</td>
+                <td>Hottest planet</td>
             </tr>
-            <!-- More rows as needed -->
+            <!-- Add more rows as needed -->
         </tbody>
-
     </table>
 </body>
 </html>
+
