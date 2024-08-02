@@ -1,0 +1,1 @@
+This lesson just goes over even more CSS properties. Not as many as the previous lesson, but still a few.
