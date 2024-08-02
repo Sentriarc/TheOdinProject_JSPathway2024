@@ -1,1 +1,3 @@
 This lesson just talks about CSS resets. Every browser has their own automatic stylistic settings. We can manually go and change those settings with our own stylistic options in order to allow consistencies across all browsers. That's basically what it is in a nutshell.
+
+- If you plan on using CSS without a framework, "adopting a normalize and reset stylesheet should be your first step" (https://mattbrictson.com/blog/css-normalize-and-reset).
