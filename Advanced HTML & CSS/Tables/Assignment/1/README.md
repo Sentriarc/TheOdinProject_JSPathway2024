@@ -4,3 +4,4 @@ Active learning: Creating your first table
 tr > table row
 td > table data
 th > table header 
+caption > caption for table (is placed within table tags)
