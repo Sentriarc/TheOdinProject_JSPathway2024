@@ -1,0 +1,1 @@
+This lesson goes over some very useful pseudo elements and class selectors.
