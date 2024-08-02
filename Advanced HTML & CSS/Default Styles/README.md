@@ -1,0 +1,1 @@
+This lesson just talks about CSS resets. Every browser has their own automatic stylistic settings. We can manually go and change those settings with our own stylistic options in order to allow consistencies across all browsers. That's basically what it is in a nutshell.
