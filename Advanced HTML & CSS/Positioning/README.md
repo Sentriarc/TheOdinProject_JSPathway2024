@@ -19,3 +19,5 @@ position: absolute --> allows you to position something at an exact point on the
     - icons on top of other elements
 
 REFER TO THE EXAMPLE FILES IN THIS FOLDER TO UNDERSTAND HOW THE POSITIONINGS WORK. (In the following example, we are using absolute positioning to display text over an image.)
+
+DISCLAIMER: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn’t be used to do entire page layouts.
