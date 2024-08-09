@@ -1,0 +1,1 @@
+This lesson just covers static, relative, and absolute positioning.
