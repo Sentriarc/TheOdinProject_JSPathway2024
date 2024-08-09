@@ -18,4 +18,4 @@ position: absolute --> allows you to position something at an exact point on the
     - image with a caption on it
     - icons on top of other elements
 
-REFER TO THE EXAMPLE FILES IN THIS FOLDER TO UNDERSTAND HOW THE POSITIONINGS WORK.
+REFER TO THE EXAMPLE FILES IN THIS FOLDER TO UNDERSTAND HOW THE POSITIONINGS WORK. (In the following example, we are using absolute positioning to display text over an image.)
