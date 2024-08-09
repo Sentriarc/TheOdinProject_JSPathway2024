@@ -17,3 +17,5 @@ position: absolute --> allows you to position something at an exact point on the
     - modals
     - image with a caption on it
     - icons on top of other elements
+
+REFER TO THE EXAMPLE FILES IN THIS FOLDER TO UNDERSTAND HOW THE POSITIONINGS WORK.

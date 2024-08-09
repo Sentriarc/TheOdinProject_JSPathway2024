@@ -1,0 +1,23 @@
+.card-container {
+    position: relative;
+    width: 100%
+  }
+  .card-image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .card-body {
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: roboto;
+  }
+  .card-heading {
+    position: absolute;
+  }
