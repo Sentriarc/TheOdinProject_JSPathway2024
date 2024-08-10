@@ -21,3 +21,11 @@ position: absolute --> allows you to position something at an exact point on the
 REFER TO THE EXAMPLE FILES IN THIS FOLDER TO UNDERSTAND HOW THE POSITIONINGS WORK. (In the following example, we are using absolute positioning to display text over an image.)
 
 DISCLAIMER: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn’t be used to do entire page layouts.
+
+
+[+] STICK POSITIONING [+]
+- stick elements will act like normal elements until you scroll past them, then they start behaving like fixed elements
+- they are also not taken out of the normal flow of the document
+
+
+GOOD RECAP: https://www.youtube.com/watch?v=jx5jmI0UlXU
