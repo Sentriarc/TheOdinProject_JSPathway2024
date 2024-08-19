@@ -80,3 +80,22 @@ Ex.
     <p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
 
     <p class='exciting-paragraph'>Lorem ipsum dolor sit amet.</p>
+
+    CSS
+    :root {
+        --main-color: red;
+    }
+
+    .cool-paragraph {
+        color: var(--main-color);
+    }
+
+    .exciting-paragraph {
+        background-color: var(--main-color);
+    }
+
+    "By declaring our custom property on the :root selector in the example above, we can access it on any other valid selector within our CSS file, since any other selector would be considered a descendant of the :root selector."
+
+
+
+[+] Creating Themes With Custom Properties [+]
