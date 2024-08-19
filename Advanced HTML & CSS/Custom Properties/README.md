@@ -99,3 +99,14 @@ Ex.
 
 
 [+] Creating Themes With Custom Properties [+]
+https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties#creating-themes-with-custom-properties
+
+
+
+
+[-] Media Queries [-]
+prefers-color-scheme media query
+- checks whether a user has selected a theme preference on their OS/user agent (i.e. if your default OS is on dark mode, the website will adapt accordingly)
+- only dark & light are valid values for this media query
+- light theme is applied if the user has it as a default or no preference selected
+- does not allow users to change the theme themselves (which is why you should allow them to regardless if you have this in your code or not)
