@@ -60,3 +60,7 @@ Ex.
     the largest value (60rem)
 
     "The clamp() CSS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The ideal font-size would be 80vw."
+
+
+
+GOOD RECAP OF EVERYTHING: https://web.dev/articles/min-max-clamp
