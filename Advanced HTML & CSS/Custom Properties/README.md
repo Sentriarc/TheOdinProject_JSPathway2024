@@ -110,3 +110,7 @@ prefers-color-scheme media query
 - only dark & light are valid values for this media query
 - light theme is applied if the user has it as a default or no preference selected
 - does not allow users to change the theme themselves (which is why you should allow them to regardless if you have this in your code or not)
+
+
+
+GOOD RECAP: https://www.youtube.com/watch?v=PHO6TBq_auI
