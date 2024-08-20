@@ -114,3 +114,35 @@ prefers-color-scheme media query
 
 
 GOOD RECAP: https://www.youtube.com/watch?v=PHO6TBq_auI
+
+
+
+{+} Using @property to control inheritance {+}
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#using_property_to_control_inheritance
+
+
+
+
+{+} Defining fallbacks in the var() function {+}
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#defining_fallbacks_in_the_var_function
+
+"Using the var() function, you can define multiple fallback values when the given variable is not yet defined; this can be useful when working with Custom Elements and Shadow DOM.
+
+The first argument to the function is the name of the custom property. The second argument to the function is an optional fallback value, which is used as the substitution value when the referenced custom property is invalid. The function accepts two parameters, assigning everything following the first comma as the second parameter. If the second parameter is invalid, the fallback will fail. For example: "
+
+Ex.
+    CSS
+    .one {
+        /* Red if --my-var is not defined */
+        color: var(--my-var, red);
+    }
+
+    .two {
+        /* pink if --my-var and --my-background are not defined */
+        color: var(--my-var, var(--my-background, pink));
+    }
+
+    .three {
+        /* Invalid: "--my-background, pink" */
+        color: var(--my-var, --my-background, pink);
+    }
