@@ -146,3 +146,8 @@ Ex.
         /* Invalid: "--my-background, pink" */
         color: var(--my-var, --my-background, pink);
     }
+
+
+
+{+} CSS Custom Properties Guide {+} (SAVE FOR FUTURE REFERENCE)
+https://css-tricks.com/a-complete-guide-to-custom-properties/
