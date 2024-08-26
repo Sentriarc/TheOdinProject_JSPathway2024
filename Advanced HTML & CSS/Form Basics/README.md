@@ -134,4 +134,170 @@ Ex.
     </select>
 
 [+] Radio buttons [+]
+- allows us to create multiple options that the user can choose one of
 
+Ex.
+    <h1>Ticket Type</h1>
+    <div>
+        <input type="radio" id="child" name="ticket_type" value="child">
+        <label for="child">Child</label>
+    </div>
+
+    <div>
+        <input type="radio" id="adult" name="ticket_type" value="adult">
+        <label for="adult">Adult</label>
+    </div>
+
+    <div>
+        <input type="radio" id="senior" name="ticket_type" value="senior">
+        <label for="senior">Senior</label>
+    </div>
+
+- When a radio button is selected after a different one is selected, the previous one will be deselected.
+- We can set the default selected radio button by adding the "checked" attribute to it.
+
+Ex. 
+    <h1>Ticket Type</h1>
+    <div>
+        <input type="radio" id="child" name="ticket_type" value="child">
+        <label for="child">Child</label>
+    </div>
+
+    <div>
+        <input type="radio" id="adult" name="ticket_type" value="adult" checked>
+        <label for="adult">Adult</label>
+    </div>
+
+    <div>
+        <input type="radio" id="senior" name="ticket_type" value="senior">
+        <label for="senior">Senior</label>
+    </div>
+
+
+[+] Checkboxes [+]
+- are similar to radio buttons, but multiple options can be chosen
+- To create a checkbox, we use the input element with a "type" attribute of "checkbox."
+
+Ex.
+    <h1>Pizza Toppings</h1>
+
+    <div>
+        <input type="checkbox" id="sausage" name="topping" value="sausage">
+        <label for="sausage">Sausage</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="onions" name="topping" value="onions">
+        <label for="onions">Onions</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+        <label for="pepperoni">Pepperoni</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+        <label for="mushrooms">Mushrooms</label>
+    </div>
+
+- we can set checkboxes to be checked by default using the "checked" attribute
+
+Ex.
+    <div>
+        <input type="checkbox" id="newsletter" name="news_letter" checked>
+        <label for="newsletter">Send me the news letter</label>
+    </div>
+
+[+] Buttons [+]
+- accepts a "type" attribute that tells the browser what kind of button it is dealing with
+
+
+[+] Submit buttons [+]
+<button type="submit">Submit</button>
+
+
+[+] Reset button [+]
+<button type="reset">Reset</button>
+
+
+[+] Generic button [+]
+- just a generic button that can be used for anything
+<button type="button">Click to Toggle</button>
+
+
+[+] Organizing form elements [+]
+- too many inputs = no-no
+    - Luckily, HTML provides a couple of elements that make it easy to organize forms into sections that are visually distinct and manageable to digest.
+
+
+[+] Fieldset element [+]
+- allows us to group related form inputs into one logical unit
+- To create a fieldset, we use the <fieldset> element. Whatever form inputs we want to group together go within the opening and closing fieldset tags.
+
+Ex.
+    <fieldset>
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name">
+    </fieldset>
+
+
+[+] Legend [+]
+- is used to give field sets a heading/caption so the user can see what a grouping of inputs is for
+- "To create a legend, we use the <legend> element with the text we want to display within its opening and closing tags. A legend should always come right after an opening fieldset tag:"
+
+Ex.
+    <fieldset>
+        <legend>Contact Details</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </fieldset>
+
+    <fieldset>
+        <legend>Delivery Details</legend>
+
+        <label for="street_address">Street Address:</label>
+        <input type="text" id="street_address" name="street_address">
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="zip_code">Zip Code:</label>
+        <input type="text" id="zip_code" name="zip_code">
+    </fieldset>
+
+- "A common use-case for these elements is using a fieldset to group radio buttons and using a legend to communicate to the user what each of the options is ultimately for:"
+
+    <fieldset>
+        <legend>What would you like to drink?</legend>
+
+        <div>
+            <input type="radio" name="drink" id="coffee" value="coffee">
+            <label for="coffee">Coffee</label>
+        </div>
+
+        <div>
+            <input type="radio" name="drink" id="tea" value="tea">
+            <label for="tea">Tea</label>
+        </div>
+
+        <div>
+            <input type="radio" name="drink" id="soda" value="soda">
+            <label for="soda">Soda</label>
+        </div>
+    </fieldset>
+
+
+[+] GENERAL NOTES [+]
+- each browser has its own style, so your form will look different on each one
+    - to counteract this, we have to override these default styles and style them ourselves
