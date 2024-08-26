@@ -92,4 +92,46 @@ Ex.
 
 
 [+] Selection elements [+]
+- This element allows for dropdown selection lists.
+Ex. 
+    <select name="Car">
+        <option value="mercedes">Mercedes</option>
+        <option value="tesla">Tesla</option>
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="mini">Mini</option>
+        <option value="ford">Ford</option>
+    </select>
+
+NOTE: All the option elements should have a /value/ attribute (otherwise the text content inside is used). This value will be sent to the server when the form is submitted.
+
+- We can set one of the options to be the default selected element when the browser first renders the form. In order to do this, we must give one of the options a "selected" attribute.
+
+Ex.
+    <select name="Car">
+        <option value="mercedes">Mercedes</option>
+        <option value="tesla">Tesla</option>
+        <option value="volvo" selected>Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="mini">Mini</option>
+        <option value="ford">Ford</option>
+    </select>
+
+- We can also split the list of options into groups using the <optgroup> element.
+
+Ex.
+    <select name="fashion">
+        <optgroup label="Clothing">
+            <option value="t_shirt">T-Shirts</option>
+            <option value="sweater">Sweaters</option>
+            <option value="coats">Coats</option>
+        </optgroup>
+        <optgroup label="Foot Wear">
+            <option value="sneakers">Sneakers</option>
+            <option value="boots">Boots</option>
+            <option value="sandals">Sandals</option>
+        </optgroup>
+    </select>
+
+[+] Radio buttons [+]
 
