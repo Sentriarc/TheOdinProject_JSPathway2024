@@ -7,24 +7,25 @@
     <title>Your first form</title>
 </head>
 <body>
-    <div class="center-of-screen">
-        <div class="form-box">
-            <div class="inputs">
-                <div class="name-input">
-                    <label for="nameInput">Name</label>
-                    <input type="text" id="nameInput">
-                </div>
-                <div class="email-input">
-                    <label for="emailInput">Email</label>
-                    <input type="text" id="emailInput">
-                </div>
-                <div class="msg-input">
-                    <label for="nameInput">Message</label>
-                    <textarea name="" id="nameInput"></textarea>
-                </div>
-            </div>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+
+        <li class="button">
             <button type="submit">Send your message</button>
-        </div>
-    </div>
+          </li>
+      </form>
 </body>
 </html>
