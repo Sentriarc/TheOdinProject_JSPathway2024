@@ -1,7 +1,15 @@
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 form {
     display: flex;
     border: solid rgb(168, 168, 168) 1px;
     border-radius: 20px;
+    width: 50%;
 }
 
 li {
