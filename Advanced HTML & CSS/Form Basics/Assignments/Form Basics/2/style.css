@@ -10,6 +10,7 @@ form {
     border: solid rgb(168, 168, 168) 1px;
     border-radius: 20px;
     width: 50%;
+    padding: 8px;
 }
 
 li {
@@ -43,4 +44,9 @@ li {
 .payment li {
     display: flex;
     flex-direction: column;
+}
+
+#submitBtn {
+    width: 9rem;
+    padding: 4px;
 }
