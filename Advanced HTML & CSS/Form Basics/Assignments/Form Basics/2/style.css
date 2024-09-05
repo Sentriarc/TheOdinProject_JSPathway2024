@@ -24,6 +24,7 @@ li {
     flex-direction: column;
     justify-content: flex-start; */
     border: solid rgb(168, 168, 168) 1px;
+    
 }
 
 .inputs {
@@ -51,4 +52,6 @@ li {
 #submitBtn {
     width: 9rem;
     padding: 4px;
+    cursor: pointer;
 }
+
