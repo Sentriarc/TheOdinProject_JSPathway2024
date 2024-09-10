@@ -4,6 +4,6 @@ function Book(title, author, pages, alreadyRead) {
     // this.pages = pages;
     // let alreadyRead = false;
     // this.alreadyRead = alreadyRead;
-    theHobbit.info(); // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
+    Book.info(); // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
     return theHobbit.info();
 }
